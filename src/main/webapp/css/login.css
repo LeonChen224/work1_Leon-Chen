@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: url("/images/bg1.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.signdiv{
+    width: 100px;
+    height: 50px;
+    margin-left: 60px;
+    margin-top: 20px;
+    /*border:1px solid firebrick;
+    background-color: firebrick;
+    border-radius: 8px;*/
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.signdiv:hover{
+    cursor: pointer;
+}
+.signdiv .title{
+    font-size: 28px;
+    font-weight: bolder;
+    color: darkblue;
+}
+.signdiv .smalltitle{
+    font-size: 12px;
+}
+
+.logindiv{
+    margin: 30px auto;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.logindiv h1{
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.logindiv input[type=text], input[type=password]{
+    width: 380px;
+    height: 40px;
+    border:1px solid #F6F2E6;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding-left: 5px;
+    margin-bottom: 22px;
+    background-color: transparent;
+    ::-webkit-input-placeholder:white;
+    color: #ffffff;
+}
+.logindiv .phoneerror, .loginerror{
+    font-size: 12px;
+    color: darkred;
+    margin-bottom: 12px;
+}
+.logindiv .loginbtn{
+    width: 380px;
+    height: 46px;
+    border: 1px solid chocolate;
+    background-color: chocolate;
+    color: #ffffff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-top: 8px;
+    font-size: 20px;
+}
+.logindiv .linediv{
+    width: 400px;
+    margin-top: 5px;
+    margin-bottom: 14px;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: paleturquoise;
+}
+a:hover{
+    cursor: pointer;
+    color: brown;
+}
